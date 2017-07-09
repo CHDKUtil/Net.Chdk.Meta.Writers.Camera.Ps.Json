@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Net.Chdk.Meta.Writers.Camera.Ps.Json
 {
-    public sealed class JsonPsCameraWriter : JsonCameraWriter, IPsCameraWriter
+    sealed class JsonPsCameraWriter : JsonCameraWriter, IPsCameraWriter
     {
         public void WriteCameras(string path, IDictionary<string, PsCameraData> cameras)
         {
