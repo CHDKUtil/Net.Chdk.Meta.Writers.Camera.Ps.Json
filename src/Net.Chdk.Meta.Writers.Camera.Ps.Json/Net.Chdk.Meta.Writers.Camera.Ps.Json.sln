@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Writers.Camera.Ps.Json", "Net.Chdk.Meta.Writers.Camera.Ps.Json.csproj", "{64F90A6B-7457-41E3-ABFE-F5833F5B719E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Ps.Json", "Net.Chdk.Meta.Writers.Camera.Ps.Json.csproj", "{64F90A6B-7457-41E3-ABFE-F5833F5B719E}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Net.Chdk.Shared", "..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.shproj", "{83C6A77C-3286-4F5F-B628-3B971097AD05}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Ps.Core", "..\..\..\Net.Chdk.Meta.Writers.Camera.Ps.Core\src\Net.Chdk.Meta.Writers.Camera.Ps.Core\Net.Chdk.Meta.Writers.Camera.Ps.Core.csproj", "{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Json", "..\..\..\Net.Chdk.Meta.Writers.Camera.Json\src\Net.Chdk.Meta.Writers.Camera.Json\Net.Chdk.Meta.Writers.Camera.Json.csproj", "{2BFF0691-444A-4695-9134-53ADF24ACF87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Json", "..\..\..\Net.Chdk.Meta.Writers.Json\src\Net.Chdk.Meta.Writers.Json\Net.Chdk.Meta.Writers.Json.csproj", "{418EE931-1D5E-49BA-8E37-D4DE1406A11E}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -55,10 +55,10 @@ Global
 		{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2BFF0691-444A-4695-9134-53ADF24ACF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BFF0691-444A-4695-9134-53ADF24ACF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BFF0691-444A-4695-9134-53ADF24ACF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BFF0691-444A-4695-9134-53ADF24ACF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418EE931-1D5E-49BA-8E37-D4DE1406A11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418EE931-1D5E-49BA-8E37-D4DE1406A11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418EE931-1D5E-49BA-8E37-D4DE1406A11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418EE931-1D5E-49BA-8E37-D4DE1406A11E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
