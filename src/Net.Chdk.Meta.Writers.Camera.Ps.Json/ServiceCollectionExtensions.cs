@@ -7,7 +7,7 @@ namespace Net.Chdk.Meta.Writers.Camera.Ps.Json
         public static IServiceCollection AddJsonPsCameraWriter(this IServiceCollection serviceCollection)
         {
             return serviceCollection
-                .AddSingleton<IPsCameraWriter, JsonPsCameraWriter>();
+                .AddSingleton<IPsInnerCameraWriter, JsonPsCameraWriter>();
         }
     }
 }
