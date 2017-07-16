@@ -5,23 +5,7 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Ps.Json", "Net.Chdk.Meta.Writers.Camera.Ps.Json.csproj", "{64F90A6B-7457-41E3-ABFE-F5833F5B719E}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Net.Chdk.Shared", "..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.shproj", "{83C6A77C-3286-4F5F-B628-3B971097AD05}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Core", "..\..\..\Net.Chdk.Meta.Writers.Camera.Core\src\Net.Chdk.Meta.Writers.Camera.Core\Net.Chdk.Meta.Writers.Camera.Core.csproj", "{988D9EDE-53D0-49EE-A2AF-50E4AC96B957}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Ps.Core", "..\..\..\Net.Chdk.Meta.Writers.Camera.Ps.Core\src\Net.Chdk.Meta.Writers.Camera.Ps.Core\Net.Chdk.Meta.Writers.Camera.Ps.Core.csproj", "{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Json", "..\..\..\Net.Chdk.Meta.Writers.Json\src\Net.Chdk.Meta.Writers.Json\Net.Chdk.Meta.Writers.Json.csproj", "{418EE931-1D5E-49BA-8E37-D4DE1406A11E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Providers.Core", "..\..\..\Net.Chdk.Meta.Providers.Core\src\Net.Chdk.Meta.Providers.Core\Net.Chdk.Meta.Providers.Core.csproj", "{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Providers.Base", "..\..\..\Net.Chdk.Meta.Providers.Base\src\Net.Chdk.Meta.Providers.Base\Net.Chdk.Meta.Providers.Base.csproj", "{9089DE31-1B1C-4BB9-817B-3ED89FE9EA1A}"
-EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{83c6a77c-3286-4f5f-b628-3b971097ad05}*SharedItemsImports = 13
-		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{a336d62c-4caf-4b19-9602-8ce0e51b4eb4}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -31,26 +15,6 @@ Global
 		{64F90A6B-7457-41E3-ABFE-F5833F5B719E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64F90A6B-7457-41E3-ABFE-F5833F5B719E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64F90A6B-7457-41E3-ABFE-F5833F5B719E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{988D9EDE-53D0-49EE-A2AF-50E4AC96B957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{988D9EDE-53D0-49EE-A2AF-50E4AC96B957}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{988D9EDE-53D0-49EE-A2AF-50E4AC96B957}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{988D9EDE-53D0-49EE-A2AF-50E4AC96B957}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFCB5E0E-4643-42AC-A986-A7D8AC16D584}.Release|Any CPU.Build.0 = Release|Any CPU
-		{418EE931-1D5E-49BA-8E37-D4DE1406A11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{418EE931-1D5E-49BA-8E37-D4DE1406A11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{418EE931-1D5E-49BA-8E37-D4DE1406A11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{418EE931-1D5E-49BA-8E37-D4DE1406A11E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A336D62C-4CAF-4B19-9602-8CE0E51B4EB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9089DE31-1B1C-4BB9-817B-3ED89FE9EA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9089DE31-1B1C-4BB9-817B-3ED89FE9EA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9089DE31-1B1C-4BB9-817B-3ED89FE9EA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9089DE31-1B1C-4BB9-817B-3ED89FE9EA1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
